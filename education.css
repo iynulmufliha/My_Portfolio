@@ -1,0 +1,41 @@
+.container {
+    padding: 20px;
+  }
+  
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #17a2b8; 
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #ccc; 
+  }
+  
+  h2 {
+    color: #17a2b8; 
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  
+  .animate__fadeIn {
+    animation-duration: 1.2s;
+  }
+  
+  .animate__zoomIn {
+    animation-duration: 0.8s;
+  }
+  

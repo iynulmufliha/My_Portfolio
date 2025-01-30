@@ -1,0 +1,45 @@
+.container {
+  padding: 20px;
+}
+
+h3, h2 {
+  color: #17a2b8;
+  font-weight: bold;
+}
+
+.form-label {
+  color: #ccc;
+}
+
+.input-dark {
+  background-color: #000;
+  color: white;
+  border: 1px solid #17a2b8;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.input-dark::placeholder {
+  color: #999;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn-info:hover {
+  background-color: #138496;
+}
+
+.social-links a {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-links a:hover {
+  transform: scale(1.2);
+  color: #138496;
+}
